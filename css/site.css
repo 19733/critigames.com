@@ -1,7 +1,23 @@
 .container{
+position: relative;
+background: black;
+width: 1349px;
 height: 2942px;
-width: 1781px;
-left: 52px;
-top: -23px;
-border-radius: 0px;
+}
+
+.title{
+position: absolute;
+left: 41.94%;
+right: 41.89%;
+top: 1.22%;
+bottom: 97.48%;
+
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+
+color: #FEFEFE;
+
 }
