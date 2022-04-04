@@ -1,37 +1,118 @@
-.container{
-position: relative;
-background: black;
-width: 1349px;
-height: 2942px;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;
+    vertical-align: baseline; 
+}
+p,a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo{
+    width: max(300px, 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo .tittle{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: min(50px, 10vh);
+}
+.container-tittleNo .subtittle{
+    margin-top: -10px;
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: max(20px, 2vw);
 }
 
-.titlesubtitle{
-margin-right: 80px;	
+.container-itens{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max(300px, 30%);
+}
+.container-itens>img{
+    width: max(30px, 20%);
+}
+.container-itens>a{
+    font-family: 'Karantina';
+    font-size: min(30px, 5vh);
+}
+.container-itens>a:hover{
+    font-family: 'Karantina';
+    font-size: 5vh;
+    border-top: 2px solid red;
+    color: white;
+}
+.banner{
+    margin-top: 30px;
+    width: max(350px, 70%);
+}
+.banner-buttons button{
+    margin-top: 45%;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+}
+.decoration{
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.history h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'inika';
+    margin-bottom: 10px;
+}
+.history p{
+    font-family: 'inika';
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 70%;
+}
+.games .decoration{
+    margin-bottom: 20px;
+}
+.games h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-family: 'inika';
+    color: white;
 }
 
-.title{
-position: absolute;
-
-font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-
-color: #FEFEFE;
+.card-team{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-
-.subtitle{
-position: absolute;
-margin-top: 10px;
-margin-left: 8px;
-
-font-family: 'Cormorant Garamond';
-font-style: normal;
-font-weight: 400;
-font-size: 32px;
-line-height: 39px;
-
-color: #E5E5E5;	
-}
-
