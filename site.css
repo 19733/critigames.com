@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;
+    vertical-align: baseline; 
+}
+p,a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo{
+    width: max(300px, 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo .tittle{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: min(50px, 10vh);
+}
+.container-tittleNo .subtittle{
+    margin-top: -10px;
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: max(20px, 2vw);
+}
+
+.container-itens{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max(300px, 30%);
+}
+.container-itens>img{
+    width: max(30px, 20%);
+}
+.container-itens>a{
+    font-family: 'Karantina';
+    font-size: min(30px, 5vh);
+}
+.container-itens>a:hover{
+    font-size: 5vh;
+    border-top: 2px solid red;
+    color: white;
+}
+.banner{
+    margin-top: 30px;
+    width: max(350px, 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner>p{
+    margin-bottom: 10px;
+    font-size: max(2.5vw, 2.5vh);
+}
+.banner-buttons button{
+    margin-top: 45%;
+}
+.resume{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+    text-align: justify;
+}
+.history h1{
+    margin-top: 10px;
+}
+.decoration{
+    width: 100%;
+    height: 1px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+.iframe{
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    font-family: 'inika';
+    margin-bottom: 10px;
+}
+@media (max-width: 425px) {
+    h1{
+        font-size: 20px;
+    }
+    
+}
+.history p{
+    font-family: 'inika';
+}
+.iframe>iframe{
+    width: max(59vw, 35vh);
+    height: max(30vw, 30vh);
+    border-radius: 15px;
+}
+.critics{
+    margin-top: 50px;
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-information{
+    width: max(40%, 40vh);
+    display: flex;
+    justify-content: center;
+    
+}
+.especifications{
+    margin-top: 40px;
+    width: max(60%, 30vh);
+    padding: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.div-critics{
+    width: max(60%, 50vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.games{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    width: 70%;
+}
+.games .decoration{
+    margin-bottom: 20px;
+}
+.games h1{
+    margin-bottom: 20px;
+}
+
+.card-team{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer{
+    margin-top: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
