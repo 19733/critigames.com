@@ -99,9 +99,10 @@ header{
     height: auto;
 }
 .box{
-   flex-wrap: wrap;
-   margin-top: 5%;
-   display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 100%
 }
 .imgbx{
       width: 200px;  
@@ -127,10 +128,10 @@ header{
 	color: white;
 }
 .boxtwo{
-	margin-top: 5%;
-	margin-bottom: 5%;
-	display: inline-flex;
-	flex-wrap: wrap;
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    width: 100%
 }
 .imgbxtwo{
     width: 200px;
