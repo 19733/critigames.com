@@ -1,0 +1,144 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, section, summary, time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;  
+    border: 0;  
+    font-size: 100%;  
+    font: inherit;
+    vertical-align: baseline; 
+}
+p,a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+header{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo{
+    width: max(300px, 40%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-tittleNo .tittle{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: min(50px, 10vh);
+}
+.container-tittleNo .subtittle{
+    margin-top: -10px;
+    font-family: 'Cormorant Garamond', serif;
+
+    font-size: max(20px, 2vw);
+}
+.container-itens{
+    margin-top: 10px;
+    margin-left: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: max(300px, 30%);	
+}
+.container-itens>img{
+    width: max(30px, 20%);
+}
+.container-itens>a{
+    font-family: 'Karantina';
+    font-size: min(30px, 5vh);
+}
+.container-itens>a:hover{
+    font-family: 'Karantina';
+    font-size: 5vh;
+    border-top: 2px solid red;
+    color: white;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+}
+.decoration{
+    width: 100%;
+    height: 1px;
+    margin-bottom: 10px;
+    background-color: red;
+}
+.history h1{
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Karantina';
+    margin-bottom: 10px;
+}
+.history p{
+    font-family: 'Karantina';
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+
+}
+.bio{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 70%;
+    height: auto;
+}
+.box{
+   flex-wrap: wrap;
+   margin-top: 5%;
+   display: inline-flex;
+}
+.imgbx{
+      width: 200px;  
+}
+.imgbx img{
+	max-width: 100%;
+	border-radius: 20px;
+}
+.content{
+    font-family: 'Karantina';
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 2%;
+    width: 600px;	
+}
+.content p{
+   font-size: 1.5rem;
+}
+.content h1{
+	font-size: 2rem;
+	margin-bottom: 10px;
+	color: white;
+}
+.boxtwo{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.imgbxtwo{
+    width: 200px;
+}
+.imgbxtwo img{
+	max-width: 100%;
+	border-radius: 20px;
+	transform: rotate(90deg);
+}
+
+
