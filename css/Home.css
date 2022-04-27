@@ -56,6 +56,7 @@ header{
     font-size: min(30px, 5vh);
 }
 .container-itens>a:hover{
+    font-family: 'Karantina';
     font-size: 5vh;
     border-top: 2px solid red;
     color: white;
@@ -63,26 +64,9 @@ header{
 .banner{
     margin-top: 30px;
     width: max(350px, 70%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.banner>p{
-    margin-bottom: 10px;
-    font-size: max(2.5vw, 2.5vh);
 }
 .banner-buttons button{
     margin-top: 45%;
-}
-.resume{
-   display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    justify-content: space-around;
-    width: 70%;
-    height: auto;
-    text-align: justify;
 }
 .history{
     display: flex;
@@ -92,10 +76,6 @@ header{
     justify-content: space-around;
     width: 70%;
     height: auto;
-    text-align: justify;
-}
-.history h1{
-    margin-top: 10px;
 }
 .decoration{
     width: 100%;
@@ -103,52 +83,44 @@ header{
     background-color: red;
     margin-bottom: 10px;
 }
-.iframe{
-    margin-top: 50px;
-    width: 70%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-h1{
+.history h1{
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'inika';
     margin-bottom: 10px;
-    text-align: center;
-}
-@media (max-width: 425px) {
-    h1{
-        font-size: 20px;
-    }
-    
 }
 .history p{
     font-family: 'inika';
+    font-size: 1.5rem;
+    text-align: center;
+    text-align: justify;
+    text-justify: inter-word;
 }
-.iframe>iframe{
-    width: max(59vw, 35vh);
-    height: max(30vw, 30vh);
-    border-radius: 15px;
-}
-.critics{
-    margin-top: 50px;
-    width: 70%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
-
-.div-critics{
-   text-align: justify; 
-}
-
-.footer{
-    margin-top: 20px;
-    width: 80%;
+.games{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    width: 70%;
+}
+.games .decoration{
+    margin-bottom: 20px;
+}
+.games h1{
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    font-family: 'inika';
+    color: white;
+}
+
+.card-team{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.card-text{
+  text-align: justify;
+  text-justify: inter-word; 
 }
