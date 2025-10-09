@@ -30,4 +30,4 @@ O histórico do repositório mostra os estágios de desenvolvimento:
 ## 👥 Contato
 
 * **Celular:** (12)98136-7399
-* **Website:** `https://19733.github.io/critigames.com/`
+* **Website:** https://19733.github.io/critigames.com/
